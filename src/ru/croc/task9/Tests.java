@@ -1,3 +1,4 @@
+package ru.croc.task9;
 import org.testng.annotations.Test;
 
 import java.security.MessageDigest;
