@@ -35,7 +35,7 @@ public class PasswordHashTest {
         String someStrForTest = "smsmbls";
         String someStringHash = hashPassword(someStrForTest);
         String password = Solution.calculatePassword(threadsNumber, someStringHash);
-        String recalculatedHash = hashPassword(someStrForTest);
+        String recalculatedHash = hashPassword(password);
 
         assertNotSame(recalculatedHash, INITIAL_HASH);
     }
