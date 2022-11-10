@@ -6,7 +6,9 @@ import ru.croc.task9.Solution;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import static org.testng.AssertJUnit.*;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotSame;
+
 
 public class PasswordHashTest {
 
