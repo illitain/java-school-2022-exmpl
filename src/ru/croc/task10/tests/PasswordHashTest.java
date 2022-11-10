@@ -1,7 +1,7 @@
-package ru.croc.task9.tests;
+package ru.croc.task10.tests;
 
 import org.testng.annotations.Test;
-import ru.croc.task9.Solution;
+import ru.croc.task10.Solution;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
